@@ -3,9 +3,9 @@ programa {
 	    
 	    inteiro pc = 20
 		inteiro numero
-		inteiro chances = 2
+		inteiro chances = 10
 		
-		escreva("------------------------JOGUINHO DA ADIVINHAÇÃO------------------------")
+		escreva("------------------------JOGUINHO DA ADIVINHAÃ‡ÃƒO------------------------")
 		escreva("\n")
 		escreva("Eu estou pensando em um numero, vamos ver se voce consegue adivinhar!!!")
 		escreva("\n")
@@ -17,14 +17,14 @@ programa {
 		    
 		    se(numero == pc){
 		        chances = 0
-		        escreva("Parabéns, você venceu! O numero era " + pc + " e você ainda tinha " + chances + " chances.")
+		        escreva("ParabÃ©ns, vocÃª venceu! O numero era " + pc + " e vocÃª ainda tinha " + chances + " chances.")
 		        escreva("\n")
 		    }
 		    
 		    senao {
 		        se (numero > pc) {
 		            escreva("Tente um numero menor!!!", "\n")
-		            escreva("Você ainda possui " + chances + " chances.")
+		            escreva("VocÃª ainda possui " + chances + " chances.")
 		            escreva("\n")
 		        }
 		        
@@ -35,7 +35,7 @@ programa {
 		        
 		        senao {
 		            escreva("Tente um numero maior!!!", "\n")
-		            escreva("Você ainda possui " + chances + " chances.")
+		            escreva("VocÃª ainda possui " + chances + " chances.")
 		            escreva("\n")
 		        }
 		    }
