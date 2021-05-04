@@ -17,7 +17,7 @@ programa {
 		    
 		    se(numero == pc){
 		        chances = 0
-		        escreva("Parabéns, você venceu! O numero era " + pc + " e você ainda tinha " + chances + " chances.")
+		        escreva("Parabéns, você venceu! O numero era " + pc)
 		        escreva("\n")
 		    }
 		    
